@@ -31,7 +31,7 @@ stages:
         org: "CLD200-CF-A04"
         space: "dev"
         credentialsId: "cfdeploy"
-        appName: ""
+        appName: "risk-management"
       mtaDeployParameters: "-f --version-rule ALL"
     artifactPrepareVersion:
       versioningType: "cloud_noTag"
